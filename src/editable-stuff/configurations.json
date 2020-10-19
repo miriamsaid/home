@@ -5,50 +5,42 @@
   "FirstName": "Miriam",
   "MiddleName": "",
   "LastName": "Said",
-  "devDesc": "| Engineer | Designer | ",
+  "devDesc": "| Mechanical Design Engineer ",
   "icons": [
     {
       "id": 0,
       "image": "fa-github",
-      "url": "https://github.com/hashirshoaeb",
-      "style": "socialicons"
-    },
-    {
-      "id": 1,
-      "image": "fa-facebook",
-      "url": "https://www.facebook.com/hashirshoaeb",
+      "url": "https://github.com/miriamsaid",
       "style": "socialicons"
     },
     {
       "id": 2,
       "image": "fa-instagram",
-      "url": "https://www.instagram.com/hashirshoaeb/",
+      "url": "https://www.instagram.com/miriamsssaid/",
       "style": "socialicons"
     },
     {
       "id": 3,
       "image": "fa-linkedin",
-      "url": "https://www.linkedin.com/in/hashirshoaeb/",
-      "style": "socialicons"
-    },
-    {
-      "id": 4,
-      "image": "fa-twitter",
-      "url": "https://www.twitter.com/hashirshoaeb/",
+      "url": "https://www.linkedin.com/in/miriam-said/",
       "style": "socialicons"
     }
   ],
-  "aboutHeading": "About Me",
-  "showInstaProfilePic": true,
-  "instaLink": "https://www.instagram.com/",
-  "instaUsername": "hashirshoaeb",
-  "instaQuerry": "/?__a=1",
-  "aboutDescription": "I am a recent Master of Science Engineering graduate seeking to exploit my creative skills and talents within an excelling engineering role.",
-  "projectHeading": "Recent Projects",
-  "gitHubLink": "https://api.github.com/users/",
-  "gitHubUsername": "hashirshoaeb",
-  "gitHubQuerry": "/repos?sort=updated&direction=desc",
-  "projectsLength": 4,
-  "showNavigationbar": true,
-  "showBlog": false
-}
+  
+  
+
+    "aboutHeading": "About Me",
+    "showInstaProfilePic": true,
+    "instaLink": "https://www.instagram.com/",
+    "instaUsername": "miriamsssaid",
+    "instaQuerry": "/?__a=1",
+    "aboutDescription": "I am a recent Master of Science Engineering graduate seeking to exploit my creative skills and talents within an excelling engineering role.",
+    "projectHeading": "Recent Projects",
+    "gitHubLink": "https://api.github.com/users/",
+    "gitHubUsername": "miriamsaid",
+    "gitHubQuerry": "/repos?sort=updated&direction=desc",
+    "projectsLength": 4,
+    "showNavigationbar": true,
+    "showBlog": false
+  }
+

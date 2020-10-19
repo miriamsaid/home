@@ -49,7 +49,7 @@ const AboutMe = () => {
             <div className="col-5 d-none d-lg-block align-self-center">
               <img
                 className="border border-secondary rounded-circle"
-                src={instaProfilePic}
+                src="https://media-exp1.licdn.com/dms/image/C4D03AQFusfaoqzX0Jg/profile-displayphoto-shrink_400_400/0?e=1608768000&v=beta&t=V9MHrs1ArZm_oVC0liD_ESFFuQYWw3dXOTkgVdPyy0g"
                 alt="profilepicture"
               />
             </div>
