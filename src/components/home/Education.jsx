@@ -6,7 +6,7 @@ import {
   showInstaProfilePic,
 } from "../../editable-stuff/configurations.json";
 
-const AboutMe = () => {
+const Education = () => {
   const [showInsta, setShowInsta] = useState(showInstaProfilePic);
   const [resumeURL] = useState(Pdf);
 
@@ -47,4 +47,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Education;
