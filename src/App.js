@@ -10,7 +10,7 @@ import {
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
-import EducationCard from "./components/home/Project";
+import Education from "./components/home/Education";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Blog } from "./components/blog/Blog";
@@ -21,7 +21,7 @@ const Home = () => {
     <Fragment>
       <MainBody />
       <AboutMe />
-      <EducationCard />
+      <Education />
       <Project />
     </Fragment>
   );
