@@ -10,7 +10,6 @@ import {
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Project from "./components/home/Project";
-import Education from "./components/home/Education";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Blog } from "./components/blog/Blog";
@@ -21,7 +20,6 @@ const Home = () => {
     <Fragment>
       <MainBody />
       <AboutMe />
-      <Education />
       <Project />
     </Fragment>
   );
@@ -33,7 +31,6 @@ const App = () => (
     <Route path="/" exact component={Home} />
     {showBlog && <Route path="/blog" exact component={Blog} />}
     {showBlog && <Route path="/blog/:id" component={BlogPost} />}
-    <Footer />
   </BrowserRouter>
 );
 
