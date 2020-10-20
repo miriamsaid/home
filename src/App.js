@@ -9,7 +9,8 @@ import {
 } from "./editable-stuff/configurations.json";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
-import Project from "./components/home/Project";
+import Projects from "./components/home/Projects";
+import Education from "./components/home/Education";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Blog } from "./components/blog/Blog";
@@ -20,7 +21,8 @@ const Home = () => {
     <Fragment>
       <MainBody />
       <AboutMe />
-      <Project />
+      {/*<Education />*/}
+      <Projects />
     </Fragment>
   );
 };
