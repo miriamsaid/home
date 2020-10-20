@@ -70,7 +70,7 @@ const Project = () => {
         <div class="skw-page__half skw-page__half--right">
           <div class="skw-page__skewed">
             <div class="skw-page__content">
-              <h2 class="skw-page__heading">Recent Pojects</h2>
+              <h1 class="skw-page__heading">Recent Pojects </h1>
               <p class="skw-page__description">Scroll for more!</p>
             </div>
           </div>
@@ -80,7 +80,7 @@ const Project = () => {
         <div class="skw-page__half skw-page__half--left">
           <div class="skw-page__skewed">
             <div class="skw-page__content">
-              <h2 class="skw-page__heading">The FloBoat</h2>
+              <h1 class="skw-page__heading">The FloBoat</h1>
               <p class="skw-page__description">a floating beach wheelchair.</p>
             </div>
           </div>
@@ -100,7 +100,7 @@ const Project = () => {
         <div class="skw-page__half skw-page__half--right">
           <div class="skw-page__skewed">
             <div class="skw-page__content">
-              <h2 class="skw-page__heading">Simple Sorting</h2>
+              <h1 class="skw-page__heading">Simple Sorting</h1>
               <p class="skw-page__description">Recycling made easy with the simple sorting automated soring bin.</p>
             </div>
           </div>
@@ -110,7 +110,7 @@ const Project = () => {
         <div class="skw-page__half skw-page__half--left">
           <div class="skw-page__skewed">
             <div class="skw-page__content">
-              <h2 class="skw-page__heading">The Finite Element Analysis of a Tidal Turbine</h2>
+              <h1 class="skw-page__heading">The Finite Element Analysis of a Tidal Turbine</h1>
               <p class="skw-page__description">Ok, ok, just one more scroll!</p>
             </div>
           </div>
@@ -130,7 +130,7 @@ const Project = () => {
         <div class="skw-page__half skw-page__half--right">
           <div class="skw-page__skewed">
             <div class="skw-page__content">
-              <h2 class="skw-page__heading">The Trike!</h2>
+              <h1 class="skw-page__heading">The Trike!</h1>
               <p class="skw-page__description">
                 Feel free to check
               </p>
