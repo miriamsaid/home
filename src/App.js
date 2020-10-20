@@ -21,7 +21,7 @@ const Home = () => {
     <Fragment>
       <MainBody />
       <AboutMe />
-      {/*<Education />*/}
+      <Education />
       <Projects />
     </Fragment>
   );

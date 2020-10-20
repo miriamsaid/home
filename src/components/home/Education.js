@@ -1,146 +1,56 @@
-import React, { useState, useEffect, useCallback } from "react";
-import {
-  projectHeading,
-} from "../../editable-stuff/configurations.json";
+import React, {} from "react";
 import"../../css/Education.css";
 import $ from 'jquery';
 
-$(document).ready(function () {
-  var curPage = 1;
-  var numOfPages = $(".skw-page").length;
-  var animTime = 1000;
-  var scrolling = false;
-  var pgPrefix = ".skw-page-";
-
-  function pagination() {
-    scrolling = true;
-
-    $(pgPrefix + curPage)
-      .removeClass("inactive")
-      .addClass("active");
-    $(pgPrefix + (curPage - 1)).addClass("inactive");
-    $(pgPrefix + (curPage + 1)).removeClass("active");
-
-    setTimeout(function () {
-      scrolling = false;
-    }, animTime);
-  }
-
-  function navigateUp() {
-    if (curPage === 1) return;
-    curPage--;
-    pagination();
-  }
-
-  function navigateDown() {
-    if (curPage === numOfPages) return;
-    curPage++;
-    pagination();
-  }
-
-  $(document).on("mousewheel DOMMouseScroll", function (e) {
-    if (scrolling) return;
-    if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
-      navigateUp();
-    } else {
-      navigateDown();
-    }
-  });
-
-  $(document).on("keydown", function (e) {
-    if (scrolling) return;
-    if (e.which === 38) {
-      navigateUp();
-    } else if (e.which === 40) {
-      navigateDown();
-    }
-  });
-});
-
 const Education = () => {
-  return (
-    <body>
-    <div id="education" class="skw-pages">
-      <div class="skw-page skw-page-1 active">
-        <div class="skw-page__half skw-page__half--left">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content"></div>
-          </div>
+return (
+<div id="education" class = "bgstyle min-vh-100 d-flex align-content-center align-items-center flex-wrap">
+    <div class="container-fluid">
+      <div class= "row align-content-center align-items-center">
+        <div class="col-4 d-none d-lg-block align-self-center hm">
+          <h1>Education</h1>
         </div>
-        <div class="skw-page__half skw-page__half--right">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content">
-              <h1 class="skw-page__heading">Recent Pojects </h1>
-              <p class="skw-page__description">Scroll for more!</p>
+        <div class = "col-8 d-none d-lg-block align-self-center">
+              <div class="card container">
+                <div class="row">
+                  <div class="col-4 d-none d-lg-block align-self-top container"><img class = "image" src="https://images.squarespace-cdn.com/content/564b434ee4b0b5206c3a3cc6/1519757700437-AVZPW3WBDUUT164O3VJA/UCL-Logo-1.jpg?content-type=image%2Fjpeg"/></div>
+                  <div class = "col-8 d-none d-lg-block align-self-center container">
+                <h2 class = "title">Engineering with Innovation and Entrepreneurship, Master’s in Science (MSc)</h2>
+                <h3 class = "text">University College London - Predicted Distinction</h3>
+                <ul class = "list">
+                  <li>Materials and Fatigue	- 73%</li>
+                  <li>Applications of Biomedical Engineering	- 81%</li>
+                  <li>Mastering Entrepreneurship - 79%</li>
+                  <li>Entrepreneurial finance	- 63%</li>
+                  <li>Project Management- 74%</li>
+                  <li>New and Renewable Energy Systems - 69%</li>
+                  <li>Innovation and Group Design Project	- 68%</li>
+                  <li>Individual Thesis - TBC</li>                  
+                </ul>                
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="skw-page skw-page-2">
-        <div class="skw-page__half skw-page__half--left">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content">
-              <h1 class="skw-page__heading">The FloBoat</h1>
-              <p class="skw-page__description">a floating beach wheelchair.</p>
+          <div class="card container">
+                <div class="row">
+                  <div class="col-4 d-none d-lg-block align-self-top container"><img class = "image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Cardiff_University_%28logo%29.svg/1024px-Cardiff_University_%28logo%29.svg.png"/></div>
+                  <div class = "col-8 d-none d-lg-block align-self-center container">
+                <h2 class = "title">Mechanical Engineering, Bachelor’s in Engineering (BEng)</h2>
+                <h3 class = "text">Cardiff University - 1st Class Honours</h3>
+                <ul class = "list">
+                  <li>Throughout the 3-year course, I participated in key engineering modules such as fluid mechanics, solid mechanics, materials and fatigue, renewable energy systems, manufacturing systems and object orientated computing.</li>
+                  <li>Year 1 - 65%</li>
+                  <li>Year 2 - 77%</li>
+                  <li>Year 3 - 70%</li>
+                  <li>Individual Dissertation - 75%</li>              
+                </ul>                
+              </div>
             </div>
           </div>
-        </div>
-        <div class="skw-page__half skw-page__half--right">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content"></div>
-          </div>
-        </div>
-      </div>
-      <div class="skw-page skw-page-3">
-        <div class="skw-page__half skw-page__half--left">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content"></div>
-          </div>
-        </div>
-        <div class="skw-page__half skw-page__half--right">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content">
-              <h1 class="skw-page__heading">Simple Sorting</h1>
-              <p class="skw-page__description">Recycling made easy with the simple sorting automated soring bin.</p>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="skw-page skw-page-4">
-        <div class="skw-page__half skw-page__half--left">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content">
-              <h1 class="skw-page__heading">The Finite Element Analysis of a Tidal Turbine</h1>
-              <p class="skw-page__description">Ok, ok, just one more scroll!</p>
-            </div>
-          </div>
-        </div>
-        <div class="skw-page__half skw-page__half--right">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content"></div>
-          </div>
-        </div>
-      </div>
-      <div class="skw-page skw-page-5">
-        <div class="skw-page__half skw-page__half--left">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content"></div>
-          </div>
-        </div>
-        <div class="skw-page__half skw-page__half--right">
-          <div class="skw-page__skewed">
-            <div class="skw-page__content">
-              <h1 class="skw-page__heading">The Trike!</h1>
-              <p class="skw-page__description">
-                Feel free to check
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </body>
-      );    
+       </div>
+</div>
+  );    
 };
 
 export default Education;

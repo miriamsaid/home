@@ -34,7 +34,7 @@
 /* Section - Block */
 /**************************/
 #projects .block {background: white; padding: 60px; width:1200px; margin: auto; text-align:justify; }
-#projects .block-gray {background: #f2f2f2;padding: 60px;}
+#projects .block-gray {background: #ffffff;padding: 60px;}
 #projects .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
 
 /* Section - Parallax */

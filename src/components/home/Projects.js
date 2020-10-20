@@ -19,7 +19,7 @@ const Projects = () => {
   </section>
   
   <section>
-    <div class="block jumbotron jumbotron-fluid bgstyle min-vh-100 d-flex align-content-center align-items-center flex-wrap ">
+    <div class="block min-vh-100 d-flex align-content-center align-items-center flex-wrap ">
       <p><span class="first-character sc">W</span>heelchair users make up 1% of the global population. The increased social awareness of immobile individuals across the past century has driven engineers into creating the adaptable wheelchair design seen in the present day. Technology advances have brought about the increased integration of wheelchair users into society by providing support; in completing daily tasks and in participating in specific leisure activities, however, the majority of water activities remain inaccessible.
 Therefore, a design opportunity was recognised which subsequently fuelled this study in creating the FloBoat, a wheelchair that provides support to individuals when in the water and on the beach. The FloBoat journeyed through a rigorous design approach, fulfilling the necessary design requirements to operate with maximum functionality and effectiveness. Throughout the design analysis, investigations were completed on design tasks such as material selection, hydrostatics and stability.
 Finite Element Analysis alongside a material selection database, GRANTA EduPack, deduced component materials and a suitable fibre layup for the CFRP-based chair body.</p>
@@ -36,7 +36,7 @@ Finite Element Analysis alongside a material selection database, GRANTA EduPack,
   </section>
   
   <section>
-    <div class="block jumbotron jumbotron-fluid bgstyle min-vh-100 d-flex align-content-center align-items-center flex-wrap ">
+    <div class="block min-vh-100 d-flex align-content-center align-items-center flex-wrap ">
       <p><span class="first-character ny">H</span>Half of the plastic that has ever been generated has been produced in the last 13 years. If these recent trends continue, it is estimated that 26 billion tons of plastic will be produced in the next 30 years. To reduce these environmental impacts the radical way of thinking needs to be changed, by optimising the use of this material and increasing its life cycle through reuse and recycling [1]. Statistics show that 15% of waste that arrive at recycling plants are non-recyclable or highly contaminated [2]. Thus, making it difficult for waste management facilities to be accurate during the recycling process, which results in wasting time, money, and labor.
 Promoting proper waste management, by combining education models and appropriate technologies, is a key contribution to sustainable development. The aim of the project is to overcome these difficulties by developing a self-sorting machine with the implementation of artificial intelligence. The goal is to separate recyclables from non-recyclables, thus preventing the presences of unwanted waste at recycling plants beforehand.
 Once the purpose and design of the product was chosen, a questionnaire was conducted for primary research regarding the potential market of the automatic recycling bin. The research concluded that Universities are the best potential market for the sorting machine as on average Universities in the UK spend £250,000 a year on waste management and a potential market size of £1.08 million was estimated.
