@@ -54,6 +54,10 @@
   }
 }
 
+#aboutme img {
+  width: 400px;
+}
+
 @keyframes AnimationName {
   0% {
     background-position: 0% 7%;

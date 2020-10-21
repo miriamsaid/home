@@ -11,14 +11,14 @@ const AboutMe = () => {
   const [resumeURL] = useState(Pdf);
 
   return (
-    <div id="aboutme" className="jumbotron jumbotron-fluid m-0 bck-white">
+    <div id="aboutme" className="jumbotron jumbotron-fluid m-0 bck-white min-vh-100 d-flex align-content-center align-items-center flex-wrap">
       <div className="container container-fluid p-5">
         <div className="row">
           {showInsta && (
             <div className="col-5 d-none d-lg-block align-self-center">
               <img
                 className="border border-secondary rounded-circle"
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQFusfaoqzX0Jg/profile-displayphoto-shrink_400_400/0?e=1608768000&v=beta&t=V9MHrs1ArZm_oVC0liD_ESFFuQYWw3dXOTkgVdPyy0g"
+                src="https://dm2305files.storage.live.com/y4monJJ8u4u4cg7uomKV9mW_vWWAbAU1VjBp7MDojMReWHaao3Vcy5SYnM-o17sb3hTyALnlnG65jvUnh6sdfpdClG_7f0lzPP98kplgvH21J22tktD5UPcFSdg2wVK0woPTARIMA9XPzi1jRaanF2bsCLeyjjUapElyyV5tXbtaWBnq8AiyGSWRShctBBA2Hb1?width=1367&height=1367&cropmode=none"
                 alt="profilepicture"
               />
             </div>
