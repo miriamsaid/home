@@ -11,6 +11,7 @@ import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
 import Projects from "./components/home/Projects";
 import Education from "./components/home/Education";
+import RecentProjects from "./components/home/RecentProjects";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Blog } from "./components/blog/Blog";
@@ -22,7 +23,8 @@ const Home = () => {
       <MainBody />
       <AboutMe />
       <Education />
-      <Projects />
+      <RecentProjects />
+      {/*<Projects />*/}
     </Fragment>
   );
 };
