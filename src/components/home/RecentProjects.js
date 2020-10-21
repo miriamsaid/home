@@ -9,8 +9,8 @@ return (
 <div class="tile"> 
   <img src='https://images.unsplash.com/photo-1464054313797-e27fb58e90a9?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80'/>
   <div class="text">
-  <h2>Lorem ipsum.</h2>
-  <h3 class="animate-text">More lorem ipsum bacon ipsum.</h3>
+  <h2>The FloBoat.</h2>
+  <h3 class="animate-text">a floating beach wheelchair.</h3>
   <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
 <div class="dots">
     <span></span>
@@ -24,8 +24,8 @@ return (
 <div class="tile"> 
   <img src='https://images.unsplash.com/photo-1458668383970-8ddd3927deed?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80'/>
   <div class="text">
-  <h2>Lorem ipsum.</h2>
-  <h3 class="animate-text">More lorem ipsum bacon ipsum.</h3>
+  <h2>Simple Sorting.</h2>
+  <h3 class="animate-text">an automated recyling sorting bin.</h3>
   <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
 <div class="dots">
     <span></span>
@@ -38,7 +38,7 @@ return (
   <div class="tile"> 
   <img src='https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80'/>
   <div class="text">
-  <h2>Lorem ipsum.</h2>
+  <h2>The Finite Element Analysis of a Tidal Turbine.</h2>
   <h3 class="animate-text">More lorem ipsum bacon ipsum.</h3>
   <p class="animate-text">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
 <div class="dots">
