@@ -11,7 +11,7 @@ const AboutMe = () => {
   const [resumeURL] = useState(Pdf);
 
   return (
-    <div id="aboutme" className="jumbotron jumbotron-fluid m-0 bck-white min-vh-100 d-flex align-content-center align-items-center flex-wrap">
+    <div id="aboutme" className="jumbotron jumbotron-fluid m-0 min-vh-100 d-flex align-content-center align-items-center flex-wrap">
       <div className="container container-fluid p-5">
         <div className="row">
           {showInsta && (

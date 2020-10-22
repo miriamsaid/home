@@ -4,7 +4,7 @@ import $ from 'jquery';
 
 const Education = () => {
 return (
-<div id="education" class = "bgstyle min-vh-100 d-flex align-content-center align-items-center flex-wrap">
+<div id="education" class = " bgstyle min-vh-100 d-flex align-content-center align-items-center flex-wrap">
     <div class="container-fluid">
       <div class= "row align-content-center align-items-center">
         <div class="col-4 d-none d-lg-block align-self-center hm">
