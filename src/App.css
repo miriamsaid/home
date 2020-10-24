@@ -476,5 +476,5 @@
   background: linear-gradient(rgba(245, 245, 245), rgba(245, 245, 245, 0));
 }
 .bck-white {
-background-color: #fff;
+background-color: rgb(255, 255, 255);
 }

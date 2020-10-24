@@ -11,7 +11,7 @@ const AboutMe = () => {
   const [resumeURL] = useState(Pdf);
 
   return (
-    <div id="aboutme" className="jumbotron jumbotron-fluid m-0 min-vh-100 d-flex align-content-center align-items-center flex-wrap">
+    <div id="aboutme" className=" jumbotron-fluid bck-white m-0 min-vh-100 d-flex align-content-center align-items-center flex-wrap">
       <div className="container container-fluid p-5">
         <div className="row">
           {showInsta && (
@@ -25,7 +25,7 @@ const AboutMe = () => {
           )}
           <div className={`col-lg-${showInsta ? "7" : "12"}`}>
             <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
-            <p className="lead text-center">{aboutDescription}</p>
+            <p className="text-center">{aboutDescription}</p>
             {resumeURL && (
               <p className="lead text-center">
                 <a

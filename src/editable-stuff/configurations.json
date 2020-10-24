@@ -9,19 +9,25 @@
   "icons": [
     {
       "id": 0,
-      "image": "fa-github",
+      "image": "fa fa-github",
       "url": "https://github.com/miriamsaid",
       "style": "socialicons"
     },
     {
       "id": 2,
-      "image": "fa-instagram",
+      "image": "fa fa-instagram",
       "url": "https://www.instagram.com/miriamsssaid/",
       "style": "socialicons"
     },
     {
       "id": 3,
-      "image": "fa-linkedin",
+      "image": "fa fa-envelope-o",
+      "url": "mailto:miriamsaid.ms@gmail.com",
+      "style": "socialicons"
+    },
+    {
+      "id": 4,
+      "image": "fa fa-linkedin-square",
       "url": "https://www.linkedin.com/in/miriam-said/",
       "style": "socialicons"
     }

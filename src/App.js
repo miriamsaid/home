@@ -25,6 +25,7 @@ const Home = () => {
       <Education />
       <RecentProjects />
       {/*<Projects />*/}
+      <Footer />
     </Fragment>
   );
 };
