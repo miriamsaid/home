@@ -1,17 +1,19 @@
 .bod2{
   margin-bottom: 50px;
+  margin:20px auto 20px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width:100%;
-  margin:10px auto 0 auto;
-  display:flex;
-  align-items:space-around;
-  max-width:1200px;
+  max-width:1300px;
+  flex-wrap: wrap;
+  padding: 0px 0px;
 }
-.bod{
-  margin: 0px 100px 0px 100px;
-}
+
 .tile
 {
-  width:380px;
+  max-width:380px;
+  width: 100%;
   height:500px;
   margin:10px;
   display:inline-block;
@@ -22,7 +24,7 @@
   -webkit-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.07);
   -moz-box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.07);
   box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.07);
-  overflow:hidden;
+  overflow: auto;
   color:rgb(0, 0, 0);
   
 }
@@ -40,13 +42,15 @@
 }
 .tile img
 {
-  width: 100%;
   position:absolute;
   bottom:0;
   left: 0;
   z-index:0;
   transition: all 0.4s ease-out;
   filter: opacity(80%);
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 .tile .text
 {
@@ -67,16 +71,18 @@
 {
   font-weight:100;
   margin:40px 0 0 0;
+  text-align: left!important;
   padding-left: 30px;
   padding-right: 30px;
   font-style:italic;
    transform: translateX(200px);
 }
-.tile p
+.p1
 {
   font-weight:300;
   margin:20px 0 0 0;
-  padding-left: 30px;
+  text-align: left!important;
+  padding-left: 0px;
   padding-right: 30px;
   line-height: 25px;
 /*   opacity:0; */
@@ -151,13 +157,19 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
    transition-delay: 0.15s;
 }
 
+@media (max-width: 800px) {
 
-@media (max-width: 1000px) {
-  .wrap {
-   flex-direction: column;
-    width:400px;
+  .tile{
+    width: 100%;
+    max-width: 280px;
+    height: 375px;
   }
 }
 /**************************/
 #recentprojects h1{font-size:3.5rem; font-weight: 300;color: rgb(0, 0, 0);  margin: 30px; text-align: center;}
 #recentprojects p{font-size:1.25rem; font-weight: 200;color: rgb(0, 0, 0); margin: 30px; text-align: center;}
+
+.b1 {
+transform: translateY(100px);
+transition-delay: 0.1s;
+}
