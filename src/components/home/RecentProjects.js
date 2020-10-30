@@ -11,7 +11,7 @@ return (
  <div class = "container-fluid">
    <div class="container">
      <h1>Recent Projects</h1>
-     <p>I am a recent Master of Science Engineering graduate seeking to exploit my creative skills and talents within an excelling engineering role. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electroni</p>
+     <p></p>
    </div>
 <div class="bod2 d-lg-block align-self-center flex justify-content-center align-items-center">
 <div class="tile clearfix" > 
@@ -19,7 +19,7 @@ return (
   <div class="text">
   <h2 class= "tile2">The FloBoat</h2>
   <h3 class="animate-text">a floating beach wheelchair.</h3>
-  <p class="animate-text p1">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+  <p class="animate-text p1"></p>
   <p className="lead animate-text b1 text-center">
                 <a
                   className="btn btn-outline-dark btn-lg"
@@ -44,7 +44,7 @@ return (
   <div class="text">
   <h2 class= "tile2">Simple Sorting</h2>
   <h3 class="animate-text">an automated recyling sorting bin.</h3>
-  <p class="animate-text p1">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+  <p class="animate-text p1"></p>
   <p className="lead animate-text b1 text-center">
                 <a
                   className="btn btn-outline-dark btn-lg"
@@ -67,8 +67,8 @@ return (
   <img src="https://dm2305files.storage.live.com/y4m0z-1m7pbFsTERo2jcFiTL5vbWJvPx3V3g2ruZOVRRhkKnfdEU07opEatYYBSKvyGBrmAKI8D3kxEa67R-2OjEGNSw963ODlgkxDR4E2Hz87xUlOLrGEPc8HE91MRZtjZoU-wgHTibPSQdDPwBLd6uxkq-C_ApazIVgaG9YEFUmmRAnfdva993RFKQIC4YQ5G?width=978&height=978&cropmode=none"/>
   <div class="text">
   <h2 class= "tile2">The FEA of a Tidal Turbine</h2>
-  <h3 class="animate-text">More lorem ipsum bacon ipsum.</h3>
-  <p class="animate-text p1">Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
+  <h3 class="animate-text">The Investigation and enhancement of the internal blade design of a Horizontal Axis Tidal Turbine (HATT) </h3>
+  <p class="animate-text p1"></p>
   <p className="lead animate-text b1 text-center">
                 <a
                   className="btn btn-outline-dark btn-lg"
