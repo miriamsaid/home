@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.77f9e561.chunk.css",
-    "main.js": "/home/static/js/main.649aa17d.chunk.js",
-    "main.js.map": "/home/static/js/main.649aa17d.chunk.js.map",
+    "main.css": "/home/static/css/main.47abd15b.chunk.css",
+    "main.js": "/home/static/js/main.32f69b2c.chunk.js",
+    "main.js.map": "/home/static/js/main.32f69b2c.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
     "static/css/2.5b44f0a0.chunk.css": "/home/static/css/2.5b44f0a0.chunk.css",
-    "static/js/2.c7179641.chunk.js": "/home/static/js/2.c7179641.chunk.js",
-    "static/js/2.c7179641.chunk.js.map": "/home/static/js/2.c7179641.chunk.js.map",
+    "static/js/2.86137100.chunk.js": "/home/static/js/2.86137100.chunk.js",
+    "static/js/2.86137100.chunk.js.map": "/home/static/js/2.86137100.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.b3b56f22fd882d53ddaf1ca6e285959c.js": "/home/precache-manifest.b3b56f22fd882d53ddaf1ca6e285959c.js",
+    "precache-manifest.1d1d1f3d080182ad1c4ff8ea3e27b234.js": "/home/precache-manifest.1d1d1f3d080182ad1c4ff8ea3e27b234.js",
     "service-worker.js": "/home/service-worker.js",
     "static/css/2.5b44f0a0.chunk.css.map": "/home/static/css/2.5b44f0a0.chunk.css.map",
-    "static/css/main.77f9e561.chunk.css.map": "/home/static/css/main.77f9e561.chunk.css.map",
-    "static/js/2.c7179641.chunk.js.LICENSE.txt": "/home/static/js/2.c7179641.chunk.js.LICENSE.txt",
+    "static/css/main.47abd15b.chunk.css.map": "/home/static/css/main.47abd15b.chunk.css.map",
+    "static/js/2.86137100.chunk.js.LICENSE.txt": "/home/static/js/2.86137100.chunk.js.LICENSE.txt",
+    "static/media/Thesis.pdf": "/home/static/media/Thesis.5de8df2d.pdf",
+    "static/media/fea.pdf": "/home/static/media/fea.db83323c.pdf",
     "static/media/Projects.css": "/home/static/media/ss.4fab8eea.jpg",
-    "static/media/resume.pdf": "/home/static/media/resume.f34238a4.pdf"
+    "static/media/resume.pdf": "/home/static/media/resume.ff711e4d.pdf",
+    "static/media/ss.pdf": "/home/static/media/ss.fb31a629.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.3c590061.js",
     "static/css/2.5b44f0a0.chunk.css",
-    "static/js/2.c7179641.chunk.js",
-    "static/css/main.77f9e561.chunk.css",
-    "static/js/main.649aa17d.chunk.js"
+    "static/js/2.86137100.chunk.js",
+    "static/css/main.47abd15b.chunk.css",
+    "static/js/main.32f69b2c.chunk.js"
   ]
 }
