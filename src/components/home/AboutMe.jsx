@@ -21,7 +21,7 @@ const AboutMe = () => {
                 alt="profilepicture"
               />
             </div>
-          <div className="col-md-6">
+          <div className="col-md-6 align-self-center flex justify-content-center align-items-center">
             <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
             <p className="text-center">{aboutDescription}</p>
             {resumeURL && (

@@ -23,7 +23,7 @@
   box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.07);
 }
 
-@media only screen and (min-width: 949px) {
+@media only screen and (min-width: 1000px) {
   .card {
     width: 100%;
     margin-top:20px;
@@ -65,7 +65,7 @@
   }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1000px) {
   .card {
     width: 100%;
     margin-top:20px;
@@ -92,6 +92,7 @@
     width: 170px;
     margin: 30px auto 30px auto;
     display: block;
+    filter: drop-shadow(5px 5px 5px rgb(170, 170, 170));
   }
   .card .title {
     text-align: center;
@@ -117,6 +118,7 @@
 .image{
   border: 1px;
   border-color: grey;
+  filter: drop-shadow(5px 5px 5px rgb(170, 170, 170));
 }
 
 /**************************/

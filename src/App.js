@@ -9,6 +9,7 @@ import {
 } from "./editable-stuff/configurations.json";
 import MainBody from "./components/home/MainBody";
 import AboutMe from "./components/home/AboutMe";
+import Skills from "./components/home/Skills";
 import Projects from "./components/home/Projects";
 import Education from "./components/home/Education";
 import RecentProjects from "./components/home/RecentProjects";
@@ -17,13 +18,34 @@ import Navbar from "./components/Navbar";
 import { Blog } from "./components/blog/Blog";
 import BlogPost from "./components/blog/BlogPost";
 
+function FadeInSection(props) {
+  const [isVisible, setVisible] = React.useState(false);
+  const domRef = React.useRef();
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+    observer.observe(domRef.current);
+  }, []);
+  return (
+    <div
+      className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+      ref={domRef}
+    >
+      {props.children}
+    </div>
+  );
+}
+
+
 const Home = () => {
   return (
     <Fragment>
       <MainBody />
-      <AboutMe />
-      <Education />
-      <RecentProjects />
+      <FadeInSection><AboutMe /></FadeInSection>
+      <FadeInSection><Skills/ ></FadeInSection>
+      <FadeInSection><Education /></FadeInSection>
+     <FadeInSection><RecentProjects /></FadeInSection>
       {/*<Projects />*/}
       <Footer />
     </Fragment>

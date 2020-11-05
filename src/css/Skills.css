@@ -1,0 +1,17 @@
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.big{
+    width: 270px;
+}
+.space{
+margin:20px 20px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#skills h1{margin-bottom: 50px;}
+
+

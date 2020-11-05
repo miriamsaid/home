@@ -59,7 +59,7 @@
   margin: 20px auto 20px auto;
   align-self: center;
   width: 100%;
-  max-width: 400px;
+  max-width: 425px;
   height: auto;
 
 }
@@ -496,5 +496,17 @@
 .bck-white {
 background-color: rgb(255, 255, 255);
 }
-
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(7vh);
+  visibility: hidden;
+  transition: opacity 1200ms ease-out, transform 600ms ease-out,
+    visibility 1200ms ease-out;
+  will-change: opacity, transform, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
 

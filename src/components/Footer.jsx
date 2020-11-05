@@ -8,7 +8,7 @@ const Footer = () => {
       <p>
         <small className="text-muted">
           {" "}
-           - Coded by Hashir Shoabib and Edited by Miriam Said - 
+           - Coded by Hashir Shoabib and Miriam Said - 
         </small>
       </p>
     </footer>

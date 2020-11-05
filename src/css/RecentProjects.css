@@ -33,6 +33,7 @@
 .tile2
 {
   width: 100%;
+  max-width:380px;
   height: 100px;
   margin: 0px;
   padding: 0px;
@@ -61,6 +62,7 @@
   top: 0px;
   padding:0px;
   height:calc(100% - 60px);
+  width: 100%;
 }
 .tile h2
 {
@@ -72,6 +74,7 @@
 .tile h3
 {
   font-weight:100;
+  font-size: 24px;
   margin:40px 0 0 0;
   text-align: left!important;
   padding-left: 30px;
@@ -82,7 +85,7 @@
 .p1
 {
   font-weight:300;
-  margin:20px 0 0 0;
+  margin:20px 30px 30px 30px;
   text-align: left!important;
   padding-left: 0px;
   padding-right: 30px;
@@ -90,6 +93,9 @@
 /*   opacity:0; */
   transform: translateX(-200px);
   transition-delay: 0.2s;
+}
+.pz{
+  margin: 30pximportant!;
 }
 .animate-text
 {
@@ -159,19 +165,32 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
    transition-delay: 0.15s;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
 
   .tile{
     width: 100%;
-    max-width: 280px;
-    height: 375px;
+    /* max-width: 325px; */
+    height: 550px;
+  }
+  .tile img{
+   position: relative;
+   padding:100px 0 0;
+   width:auto;
+   height: 100%;
+   /* transform: translateX(-50px); */
+  }
+  .pz{
+    margin: 0px;
   }
 }
 /**************************/
 #recentprojects h1{font-size:3.5rem; font-weight: 300;color: rgb(0, 0, 0);  margin: 30px; text-align: center;}
-#recentprojects p{font-size:1.25rem; font-weight: 200;color: rgb(0, 0, 0); margin: 30px; text-align: center;}
+#recentprojects p{font-size:1.25rem; font-weight: 200;color: rgb(0, 0, 0); text-align: center;}
+
 
 .b1 {
 transform: translateY(100px);
 transition-delay: 0.1s;
+float: left;
+margin-left: 30px;
 }

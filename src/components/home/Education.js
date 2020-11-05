@@ -9,7 +9,7 @@ return (
       <div class= "row align-content-center align-items-center">
         <div class="col-md-4 align-self-center">
           <h1 class= "hm">Education</h1>
-          <p></p>
+          <p>My 4-years of education were shared between an undergraduate Bachelors of Engineering (BEng) degree in Mechainical Engineering at Cardiff University and a postgraduate Master’s in Science (MSc) degree in Engineering with Innovation and Entrepreneurship at University College London. Throughout my taught years I have gained significant knowledge and experience allowing me to grow and develop as an engineer. </p>
         </div>
         <div class = "col-md-8 align-self-center">
               <div class="card container">
