@@ -35,21 +35,21 @@ const Skills = () => {
               className= ""
               src="https://img.icons8.com/nolan/150/matlab.png">
             </img>
-            <p>Competent in Matlab and have previously used matlab to manipulate datasets and process images. </p>
+            <p>Competent in MatLab and have previously used MatLab to manipulate datasets and process images. </p>
           </div>
           <div class="col-sm">
             <img
               className= ""
               src="https://img.icons8.com/color/144/000000/python.png">
             </img>
-            <p>Self-taught Python scripter with previous experience in using python to recognise labels and logos using image recognition.</p>
+            <p>Self-taught Python scripter with previous experience in using Python to recognise labels and logos using image recognition.</p>
           </div>
           <div class="col-sm">
             <img
               className= "space"
               src="https://img.icons8.com/ios/100/000000/more.png">
             </img>
-            <p>Competent in other coding languages and softwares used for the purposes of Web Design such as; HTML,CSS, MS Photoshop.</p>
+            <p>Competent in other coding languages and softwares used for the purposes of Web Design such as; HTML,CSS, Adobe Photoshop and Ilustrator.</p>
           </div>
           </div>
           </div>

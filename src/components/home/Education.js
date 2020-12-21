@@ -17,7 +17,7 @@ return (
                   <div class="col-sm-4  align-self-top container"><img class = "image" src="https://images.squarespace-cdn.com/content/564b434ee4b0b5206c3a3cc6/1519757700437-AVZPW3WBDUUT164O3VJA/UCL-Logo-1.jpg?content-type=image%2Fjpeg"/></div>
                   <div class = "col-sm-8 align-self-center container">
                 <h2 class = "title">Engineering with Innovation and Entrepreneurship, Master’s in Science (MSc)</h2>
-                <h3 class = "text">University College London - Predicted Distinction</h3>
+                <h3 class = "text">University College London - Distinction</h3>
                 <ul class = "list">
                   <li>Materials and Fatigue	- 73%</li>
                   <li>Applications of Biomedical Engineering	- 81%</li>
@@ -26,7 +26,7 @@ return (
                   <li>Project Management- 74%</li>
                   <li>New and Renewable Energy Systems - 69%</li>
                   <li>Innovation and Group Design Project	- 68%</li>
-                  <li>Individual Thesis - TBC</li>                  
+                  <li>Individual Thesis - 82%</li>                  
                 </ul>                
               </div>
             </div>
