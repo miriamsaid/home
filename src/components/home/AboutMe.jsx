@@ -12,7 +12,7 @@ const AboutMe = () => {
 
   return (
     <div id="aboutme" className="jumbotron jumbotron-fluid bck-white min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0">
-      <div className="container container-fluid ">
+      <div className="container container-fluid">
         <div className="row">
             <div className="col-md-6 d-lg-block align-self-center float-left flex justify-content-center text-left align-items-center">
               <img

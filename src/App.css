@@ -99,12 +99,15 @@
   font-size: 20px;
   text-align: left;
 }
+.maxx{
+  max-width: 1250px;
+  margin: 0px auto 0px auto;
+}
 #industry h1{
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 0px;
-  text-align: right!important;
-  /* text-align: right;
-  position: relative;
+  text-align: center;
+  /* position: relative;
   opacity: 0;
   animation: move-text 3s forwards; */
 }
