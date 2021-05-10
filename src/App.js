@@ -17,6 +17,8 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Blog } from "./components/blog/Blog";
 import BlogPost from "./components/blog/BlogPost";
+import Industry from "./components/home/Industry"
+
 
 function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(false);
@@ -43,9 +45,10 @@ const Home = () => {
     <Fragment>
       <MainBody />
       <FadeInSection><AboutMe /></FadeInSection>
-      <FadeInSection><Skills/ ></FadeInSection>
+      <FadeInSection><Industry/ ></FadeInSection>
       <FadeInSection><Education /></FadeInSection>
-     <FadeInSection><RecentProjects /></FadeInSection>
+      <FadeInSection><Skills/ ></FadeInSection>
+      <FadeInSection><RecentProjects /></FadeInSection>
       {/*<Projects />*/}
       <Footer />
     </Fragment>

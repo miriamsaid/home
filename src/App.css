@@ -1,3 +1,4 @@
+
 .bgstyle {
   /* background: linear-gradient(136deg, #1ad7c0, #8E44AD, #ff9b11, #1F3A93, #ddd8c6, #000000, #000000);  */
   background: linear-gradient(
@@ -53,10 +54,15 @@
     background-position: 0% 7%;
   }
 }
-
+#education p{
+  text-align: left;
+}
+#skills p{
+  text-align: left;
+}
 #aboutme img {
   display: block;
-  margin: 20px auto 20px auto;
+  margin: 20px 0px 20px 0px;
   align-self: center;
   width: 100%;
   max-width: 425px;
@@ -75,6 +81,43 @@
 }
 #aboutme p{
   margin-bottom: 30px;
+}
+#aboutme h1{
+  margin-bottom: 20px!important;
+}
+#industry img{
+  max-width: 300px;
+  width: auto;
+  height: 200px;
+  margin: 20px auto 20px auto;
+}
+#industry p{
+  text-align: left;
+}
+#industry h3{
+  font-weight: 700;
+  font-size: 20px;
+  text-align: left;
+}
+#industry h1{
+  margin-top: 30px;
+  margin-bottom: 0px;
+  text-align: right!important;
+  /* text-align: right;
+  position: relative;
+  opacity: 0;
+  animation: move-text 3s forwards; */
+}
+
+/* @keyframes move-text {
+    0% { bottom: -20em; opacity: 0; }
+    50% { bottom: -0em; opacity: 1}
+    100% { bottom: 0; opacity: 1; }
+} */
+
+
+.bigger{
+  width: 200px;
 }
 @keyframes AnimationName {
   0% {

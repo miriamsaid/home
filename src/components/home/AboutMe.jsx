@@ -14,10 +14,10 @@ const AboutMe = () => {
     <div id="aboutme" className="jumbotron jumbotron-fluid bck-white min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0">
       <div className="container container-fluid ">
         <div className="row">
-            <div className="col-md-6 d-lg-block align-self-center flex justify-content-center align-items-center">
+            <div className="col-md-6 d-lg-block align-self-center float-left flex justify-content-center text-left align-items-center">
               <img
-                className="border rounded-circle im"
-                src="https://dm2305files.storage.live.com/y4monJJ8u4u4cg7uomKV9mW_vWWAbAU1VjBp7MDojMReWHaao3Vcy5SYnM-o17sb3hTyALnlnG65jvUnh6sdfpdClG_7f0lzPP98kplgvH21J22tktD5UPcFSdg2wVK0woPTARIMA9XPzi1jRaanF2bsCLeyjjUapElyyV5tXbtaWBnq8AiyGSWRShctBBA2Hb1?width=1367&height=1367&cropmode=none"
+                className="border rounded-circle"
+                src="https://dsm01pap002files.storage.live.com/y4myMey4CqacgPEQFgODlJaFCbD4uE9Div_YOr-2i9LU5yR_vM-UCKos8RPhxVyUsGnBzW-PcF7ABhF591P7mfaUd-CwofBzQpdGOrL4h25mWXvJrLQ2lHVsOCHMfEjU-lZ-w6A_1xvePy_A3ZRLKoXM_txE7hZwXPsdg_J22pwVeQKJEDWEEcPIaE78wW0tahE?width=3024&height=3137&cropmode=none"
                 alt="profilepicture"
               />
             </div>

@@ -5,7 +5,7 @@
   "FirstName": "Miriam",
   "MiddleName": "",
   "LastName": "Said",
-  "devDesc": "| Junior Mechanical Design Engineer ",
+  "devDesc": "| Quality Assurance Technologist | Junior Mechanical Engineer ",
   "icons": [
     {
       "id": 0,
@@ -15,8 +15,8 @@
     },
     {
       "id": 2,
-      "image": "fa fa-instagram",
-      "url": "https://www.instagram.com/miriamsssaid/",
+      "image": "fa fa fa-codepen ",
+      "url": "https://codepen.io/miriamsaid/",
       "style": "socialicons"
     },
     {
@@ -38,7 +38,7 @@
     "instaLink": "https://www.instagram.com/",
     "instaUsername": "miriamsssaid",
     "instaQuerry": "/?__a=1",
-    "aboutDescription": "I'm Miriam, I am a recent Master of Science Engineering graduate seeking to exploit my creative skills and talents within an excelling engineering role. Currently, I am investing my time in learning new skills and languages. I am additionally completing personal projects allowing me to grow my skills within the mechanical design field.",
+    "aboutDescription": "Hi, I'm Miriam! I am a recent Master of Science Engineering graduate seeking to exploit my skills and talents within a creative role. Currently, I am working as a Quality Assurance Technologist at One Retail Group, where I primarily ensure that products meet strict quality and regulatory compliance standards by planning and overseeing the inspection, testing, construction checks and product technical file compliance documentation. Over the lockdown period I have invested my time in learning new skills and languages. I additionally completed personal projects allowing me to grow my skills within the innovation and technology sector.",
     "projectHeading": "Recent Projects",
     "gitHubLink": "https://api.github.com/users/",
     "gitHubUsername": "miriamsaid",
